@@ -1,0 +1,8 @@
+#YAML Demo
+---
+  User:
+    name: Prakash
+    Age: 30
+    Role: Dev
+    Tech: Yes
+    
