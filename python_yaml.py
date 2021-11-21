@@ -2,7 +2,7 @@
 import yaml
 
 # Reading a YAML file
-with open('all_datatypes.yml') as f:
+with open('users.yaml') as f:
     yaml_contents = yaml.load_all(f, Loader=yaml.FullLoader)
     for yaml_content in yaml_contents:
         for key, value in yaml_content.items():
